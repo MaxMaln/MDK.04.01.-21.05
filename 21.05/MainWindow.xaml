@@ -1,0 +1,26 @@
+﻿<Window x:Class="_21._05.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_21._05"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
+        <Button Content="Упражнение 5.1&#xD;&#xA;" HorizontalAlignment="Left" Margin="71,61,0,0" VerticalAlignment="Top" Height="31" Width="150" Background="Black" BorderBrush="Black" Foreground="White" FontSize="16" FontWeight="Bold" Click="Metod1_Click"/>
+        <TextBox x:Name="onezizlo_textbox" HorizontalAlignment="Left" Margin="10,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="twozizlo_textbox" HorizontalAlignment="Left" Margin="161,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="15,7,0,0" Text="Первое число" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="166,7,0,0" Text="Второе число" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <TextBlock x:Name="text1" HorizontalAlignment="Left" Margin="374,17,0,0" Text="Я текст" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="193" FontSize="16" FontWeight="Bold" FontFamily="ItalicT"/>
+        <TextBlock x:Name="text2" HorizontalAlignment="Left" Margin="588,20,0,0" Text="И я меняюсь" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="193" FontSize="16" FontWeight="Bold" Foreground="#FF3AFF00"/>
+        <Button Content="Упражнение 5.2&#xA;" HorizontalAlignment="Left" Margin="493,61,0,0" VerticalAlignment="Top" Height="31" Width="150" Background="Black" BorderBrush="Black" Foreground="White" FontSize="16" FontWeight="Bold" Click="Metod2_Click"/>
+        <TextBox x:Name="factorial_textbox" HorizontalAlignment="Left" Margin="61,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" Height="22"/>
+        <Button Content="Упражнение 5.3&#xA;" HorizontalAlignment="Left" Margin="71,217,0,0" VerticalAlignment="Top" Height="31" Width="150" Background="Black" BorderBrush="Black" Foreground="White" FontSize="16" FontWeight="Bold" Click="Metod3_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="103,140,0,0" Text="Факториал" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Button Content="Упражнение 5.4&#xA;" HorizontalAlignment="Left" Margin="71,262,0,0" VerticalAlignment="Top" Height="31" Width="150" Background="Black" BorderBrush="Black" Foreground="White" FontSize="16" FontWeight="Bold" Click="Metod4_Click"/>
+        <Button Content="Упражнения 7.1,7.2" HorizontalAlignment="Left" Margin="621,343,0,0" VerticalAlignment="Top" Height="35" Width="169" Background="Black" BorderBrush="Black" Foreground="White" FontSize="16" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="Упражнение 6.3" HorizontalAlignment="Left" Margin="621,232,0,0" VerticalAlignment="Top" Height="36" Width="169" Background="Black" BorderBrush="Black" Foreground="White" FontSize="16" FontWeight="Bold" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
